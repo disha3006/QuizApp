@@ -3,6 +3,7 @@
 A real-time multiplayer quiz game built with React, Socket.io, and Express. Players join rooms, answer trivia questions, and compete to reach the winning score first!
 ![image](https://github.com/user-attachments/assets/eaa71f6b-b192-4fca-abaa-3c183daf3d91)
 ![image](https://github.com/user-attachments/assets/0adc705c-132c-40b0-bce4-c37151c3ba2d)
+![image](https://github.com/user-attachments/assets/9dd2062f-2abf-4a34-be8b-1c5caa794b78)
 
 
 ## Features ✨
