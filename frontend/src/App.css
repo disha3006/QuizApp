@@ -1,0 +1,215 @@
+:root {
+  --primary-color: #6c5ce7;
+  --secondary-color: #a29bfe;
+  --accent-color: #fd79a8;
+  --dark-color: #2d3436;
+  --light-color: #f5f6fa;
+  --correct-color: #00b894;
+  --wrong-color: #d63031;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+.join-div {
+  margin: 5% auto;
+  width: 60%;
+  max-width: 500px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  margin: 10px 0;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-color);
+  background-color: white;
+}
+
+.join-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.join-btn:hover {
+  background-color: #e84393;
+  transform: translateY(-2px);
+}
+
+.quiz-div {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.room-id {
+  font-size: 1.2rem;
+  margin-top: -20px;
+  color: var(--light-color);
+  opacity: 0.8;
+}
+
+.question {
+  font-size: 1.5rem;
+  margin: 30px auto;
+  color: var(--light-color);
+  font-weight: bold;
+}
+
+.timer {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  width: 100%;
+  margin: 10px auto;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent-color);
+}
+
+.options {
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  color: var(--light-color);
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
+.options:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.selected {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.correct {
+  background-color: var(--correct-color);
+  color: white;
+}
+
+.wrong {
+  background-color: var(--wrong-color);
+  color: white;
+}
+
+.scoreboard {
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.score-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.winner-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+}
+
+.winner-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--accent-color);
+}
+
+.winner-name {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.play-again-btn {
+  padding: 15px 30px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.play-again-btn:hover {
+  background-color: #e84393;
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
