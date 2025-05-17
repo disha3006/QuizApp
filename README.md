@@ -1,6 +1,9 @@
 # QuizzyPop 🎮⚡
 
 A real-time multiplayer quiz game built with React, Socket.io, and Express. Players join rooms, answer trivia questions, and compete to reach the winning score first!
+![image](https://github.com/user-attachments/assets/eaa71f6b-b192-4fca-abaa-3c183daf3d91)
+![image](https://github.com/user-attachments/assets/0adc705c-132c-40b0-bce4-c37151c3ba2d)
+
 
 ## Features ✨
 - Real-time gameplay with WebSockets
